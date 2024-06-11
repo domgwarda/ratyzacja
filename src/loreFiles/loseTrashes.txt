@@ -1,0 +1,6 @@
+
+(koniec gry)
+
+
+
+(przegrałeś!)

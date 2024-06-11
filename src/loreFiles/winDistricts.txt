@@ -1,0 +1,6 @@
+
+(koniec gry)
+Wrocławskim szczurom udało się przejąć wszystkie 5 dzielnic, a wraz z nimi ratusz i fotel prezydenta miasta.
+Nieważne czy w mieście przebywają jeszcze ludzie zdrowi - nie zostaną tu na długo. Wrocław jest już pod twoją
+kontrolą, więc nie mają czego tu szukać. Teraz czekaj na nagrodę :)
+(wygrałeś!)

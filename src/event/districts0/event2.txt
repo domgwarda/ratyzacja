@@ -1,0 +1,4 @@
+orzechy 2 100 sila 3
+orzechy 1 20 inteligencja 2
+0
+

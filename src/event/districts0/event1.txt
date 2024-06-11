@@ -1,0 +1,11 @@
+orzechy 2 100 szybkosc 2
+orzechy 1 33 inteligencja 2
+0
+
+Szympansy we Wrocławskim zoo dostały ataku paniki
+i wydostają się na zewnątrz. Zaczynają demolować pobliskie
+budynki oraz atakować ludzi.
+Co chcesz zrobić?
+1) wbij szympansom strzykawkę z adrenaliną (wymagane 2 punkty szybkości)
+2) daj szympansom broń palną, może uda im się nią posłużyć (wymagane 1 punkt inteligencji)
+3) nic nie rób

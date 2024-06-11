@@ -1,0 +1,7 @@
+
+(koniec gry)
+Udało ci się doprowadzić akcję ratyzacja od a do z. Cały Wrocław został zarażony
+wirusem wścieklizny, a ci, którzy jeszcze żyją, nie będą długo w tym stanie.
+Teraz pozostało jedynie posprzątać martwych ludzi z ulicy. Możesz posłużyć się
+tymi, którzy jeszcze żyją.
+(wygrałeś!)

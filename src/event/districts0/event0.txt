@@ -1,0 +1,12 @@
+orzechy 2 100 sila 3
+orzechy 1 20 inteligencja 2
+0
+
+W pubie (pod ziemią) łódzki zespół, oddech szczura, gra swój koncert. 
+Wokalista pod pseudonimem kaznodzieja w pewnym momencie wyciąga ze
+swoich glanów złote orzechy i rzuca nimi w stronę pogo.
+Co chcesz zrobić?
+1) wejdź do pogo i wyrwij innym orzechy (minimum 2 punkty siły)
+2) stań pod ścianą i czekaj, a nuż pijanemu wokaliście pomylą się strony
+   i rzuci jednego w twoją stronę (minimum 1 punkt inteligencji)
+3) nic nie rób
