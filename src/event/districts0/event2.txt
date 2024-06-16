@@ -1,4 +1,12 @@
-orzechy 2 100 sila 3
-orzechy 1 20 inteligencja 2
+populacja 40000 100 szybkosc 3
+populacja 45000 100 inteligencja 3
 0
 
+Studenci wydziału dziennikarstwa i komunikacji społecznej
+skontruowali bombe i podłożyli ją pod budynek instytutu
+informatyki. W piwnicy ii mieszka wiele szczurów.
+zawalił się. 
+Co chcesz zrobić?
+1) Porwij ich dziekana (wymagane 4 punkty siły)
+2) Spróbuj porozmawiać z ich guru (wymagane 3 punkty charyzmy, szczęście i megafon)
+3) Nic nie rób (wiele szczurów zginie)
