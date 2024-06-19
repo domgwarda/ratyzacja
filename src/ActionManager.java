@@ -54,12 +54,17 @@ public class ActionManager {
             if (resourcesMap.containsKey(resourceInput)) {
                 Resources resource = resourcesMap.get(resourceInput);
                 System.out.println("ile chcesz wymienic?");
-                Integer amountInput = scanner.nextInt();
-                scanner.nextLine();
-                if (amountInput<0) { 
-                    System.out.println("ilość, którą chcesz wymienić, ma być nieujemna!"); 
-                    return; }
-                else { resourcesManager.exchange(resource, amountInput); };
+                try {
+                    Integer amountInput = scanner.nextInt();
+                    scanner.nextLine();
+                    if (amountInput<0) { 
+                        System.out.println("ilość, którą chcesz wymienić, ma być nieujemna!"); 
+                        return; }
+                    else { resourcesManager.exchange(resource, amountInput); };
+                } catch (Exception e) {
+                    System.out.println("spróbuj jeszcze raz");
+                    scanner.nextLine();
+                }
             }
             else { System.out.println("nie rozpoznaję typu, spróbuj jeszcze raz :("); }
         }
@@ -67,7 +72,7 @@ public class ActionManager {
         else if (action.equals("rozwin")) {
             Resources.Nuts nuts = resourcesManager.getNuts();
             Map<String, Skill> skillMap = skillManager.getMap();
-            System.out.println("jaką cechę chcesz rozwinąć? (inteligencja/ sila/ charyzma/ szybkosc);");
+            System.out.println("jaką cechę chcesz rozwinąć? (inteligencja/sila/charyzma/szybkosc);");
             String skillInput = scanner.nextLine();
             if (skillMap.containsKey(skillInput)) {
                 Skill skill = skillMap.get(skillInput);
@@ -85,7 +90,7 @@ public class ActionManager {
                 }
             }
             else {
-                System.out.println("nie rozpoznaję nazwy cechy :(");
+                System.out.println("nie rozpoznaję nazwy cechy");
             }
         }
     }

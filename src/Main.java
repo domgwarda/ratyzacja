@@ -24,7 +24,7 @@ public class Main {
         scanner.nextLine();
         actionManager.start();
         while (!endManager.end(r)) {
-            System.out.println("\n***");
+            System.out.println("\n===");
             System.out.println("\n(nowy miesiąc)");
             date.showAll();
             eventManager.newEvent(r);

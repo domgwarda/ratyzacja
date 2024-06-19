@@ -1,5 +1,5 @@
-orzechy 2 100 sila 4
-orzechy 1 20 inteligencja 2
+orzechy 2 100 sila 15
+orzechy 1 10 inteligencja 8
 0
 
 W pubie (pod ziemią) łódzki zespół, oddech szczura, gra swój koncert. 

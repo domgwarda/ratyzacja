@@ -1,4 +1,4 @@
-public class Enemies {
+public class Enemies extends Stuff {
     private Integer current;
 
     public Enemies(Integer c) {

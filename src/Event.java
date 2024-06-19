@@ -10,7 +10,7 @@ public abstract class Event {
         public void newEvent(EventExecutor eventExecutor) {
             Random random = new Random();
             Integer randomInt = random.nextInt(2);
-            List<String> list = ReadFile.readEvent("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/event/districts0/event"+randomInt+".txt");
+            List<String> list = ReadFile.readEvent("../event/districts0/event"+randomInt+".txt");
             eventExecutor.executeEvent(list);
         }
     }
@@ -22,7 +22,7 @@ public abstract class Event {
         public void newEvent(EventExecutor eventExecutor) {
             Random random = new Random();
             Integer randomInt = random.nextInt(1);
-            List<String> list = ReadFile.readEvent("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/event/districts1/event"+randomInt+".txt");
+            List<String> list = ReadFile.readEvent("../event/districts1/event"+randomInt+".txt");
             eventExecutor.executeEvent(list);
         }
     }
@@ -34,7 +34,7 @@ public abstract class Event {
         public void newEvent(EventExecutor eventExecutor) {
             Random random = new Random();
             Integer randomInt = random.nextInt(1);
-            List<String> list = ReadFile.readEvent("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/event/districts2/event"+randomInt+".txt");
+            List<String> list = ReadFile.readEvent("../event/districts2/event"+randomInt+".txt");
             eventExecutor.executeEvent(list);
         }
     }
@@ -45,7 +45,7 @@ public abstract class Event {
         public void newEvent(EventExecutor eventExecutor) {
             Random random = new Random();
             Integer randomInt = random.nextInt(1);
-            List<String> list = ReadFile.readEvent("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/event/districts3/event"+randomInt+".txt");
+            List<String> list = ReadFile.readEvent("../event/districts3/event"+randomInt+".txt");
             eventExecutor.executeEvent(list);
         }
     }
@@ -57,7 +57,7 @@ public abstract class Event {
         public void newEvent(EventExecutor eventExecutor) {
             Random random = new Random();
             Integer randomInt = random.nextInt(1);
-            List<String> list = ReadFile.readEvent("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/event/districts4/event"+randomInt+".txt");
+            List<String> list = ReadFile.readEvent("../event/districts4/event"+randomInt+".txt");
             eventExecutor.executeEvent(list);
         }
     }
@@ -69,8 +69,8 @@ public abstract class Event {
         public void newEvent(EventExecutor eventExecutor) {
             Random random = new Random();
             Integer randomInt = random.nextInt(1);
-            List<String> list = ReadFile.readEvent("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/event/districts/event"+randomInt+".txt");
-            eventExecutor.executeEvent(list);
+            ReadFile.readFile("../event/districts/event"+randomInt+".txt");
+            eventExecutor.increaseDistrict();
         }
     }
 }

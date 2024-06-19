@@ -8,6 +8,7 @@ public class EventExecutor {
     private Districts districts;
     private SkillManager skillManager;
     private Scanner scanner;
+    private EnemiesManager enemiesManager;
     private Map<String, Stuff> typesMap;
 
     public EventExecutor(ResourcesManager r, Population p, Districts ds, SkillManager s, EnemiesManager h, Scanner sc) {
@@ -16,12 +17,15 @@ public class EventExecutor {
         districts = ds;
         skillManager = s;
         scanner = sc;
+        enemiesManager = h;
 
         typesMap = new HashMap<>(); 
         typesMap.put("smieci", resourcesManager.getTrashes());
         typesMap.put("orzechy", resourcesManager.getNuts());
         typesMap.put("populacja", population);
         typesMap.put("dzielnice", districts);
+        typesMap.put("martwi", enemiesManager.getDead());
+        typesMap.put("chorzy", enemiesManager.getInfected());
         typesMap.put("inteligencja", skillManager.getIntelligence());
         typesMap.put("sila", skillManager.getStrength());
         typesMap.put("charyzma", skillManager.getCharisma());
@@ -43,10 +47,6 @@ public class EventExecutor {
         Integer percent = Integer.parseInt(list.get(2));
         Stuff require = typesMap.get(list.get(3));
         Integer requireVal = Integer.parseInt(list.get(4));
-
-        System.out.println(require.getCurrent());
-        System.out.println(requireVal);
-
         if (require.getCurrent()>=requireVal) {
             Integer randomInt = random.nextInt(100);
             if (randomInt<=percent) {
@@ -72,4 +72,6 @@ public class EventExecutor {
             executeEvent(list);
         }
     };
+
+    public void increaseDistrict() {districts.setCurrent(districts.getCurrent()+1);}
 }

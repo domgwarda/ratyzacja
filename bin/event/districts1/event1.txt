@@ -1,5 +1,5 @@
-ludzie 40000 100 szybkosc 4
-ludzie 20000 33 inteligencja 3
+orzechy 2 100 szybkosc 2
+orzechy 1 33 inteligencja 2
 0
 
 Szympansy we Wrocławskim zoo dostały ataku paniki
