@@ -3,10 +3,10 @@ orzechy 1 20 inteligencja 2
 0
 
 W pubie (pod ziemią) łódzki zespół, oddech szczura, gra swój koncert. 
-Wokalista pod pseudonimem kaznodzieja w pewnym momencie wyciąga ze
+Wokalista pod pseudoni  mem kaznodzieja w pewnym momencie wyciąga ze
 swoich glanów złote orzechy i rzuca nimi w stronę pogo.
 Co chcesz zrobić?
-1) Wejdź do pogo i wyrwij innym orzechy (wymagane 4 punkty siły)
+1) Wejdź do pogo i wyrwij innym orzechy (wymagane 3 punkty siły)
 2) Stań pod ścianą i czekaj, a nuż pijanemu wokaliście pomylą się strony
    i rzuci jednego w twoją stronę (wymagane 2 punkty inteligencji i szczęście)
 3) Nic nie rób

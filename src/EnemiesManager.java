@@ -18,7 +18,7 @@ public class EnemiesManager {
     public void newEnemies(Population population) {
         Random random = new Random();
         Integer newDead = infected.getCurrent();
-        Integer newInfected = Math.round(population.getCurrent()*0.1f);
+        Integer newInfected = Math.round(population.getCurrent()*0.001f);
         dead.setCurrent( dead.getCurrent() + newDead ); 
         infected.setCurrent( infected.getCurrent() - newDead + newInfected);
         max -= random.nextInt(2137);

@@ -14,7 +14,6 @@ public class Main {
         EndManager endManager = new EndManager(resourcesManager, population, districts, skillManager, enemiesManager, date, scanner);
         EventExecutor eventExecutor = new EventExecutor(resourcesManager, population, districts, skillManager, enemiesManager, scanner);
         EventManager eventManager = new EventManager(districts, eventExecutor);
-
         //START
         ReadFile.readFile("../loreFiles/lore.txt");
         System.out.println("\n(dalej)");
@@ -27,6 +26,7 @@ public class Main {
             System.out.println("\n===");
             System.out.println("\n(nowy miesiąc)");
             date.showAll();
+            System.out.println(String.format("runda: %s", r));
             eventManager.newEvent(r);
             String input="";
             while (!input.equals("koniec")) {

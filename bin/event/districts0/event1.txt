@@ -1,9 +1,9 @@
-smieci 1 100 sila 5
+smieci 1 100 sila 3
 smieci 1 20 szybkosc 2
 0
 
 ...
 Co chcesz zrobić?
-1) ... (wymagane 5 punktów siły)
+1) ... (wymagane 3 punkty siły)
 2) ... (wymagane 2 punkty szybkości i szczęście)
 3) ...

@@ -26,8 +26,8 @@ public class EventExecutor {
         typesMap.put("dzielnice", districts);
         typesMap.put("martwi", enemiesManager.getDead());
         typesMap.put("chorzy", enemiesManager.getInfected());
-        typesMap.put("inteligencja", skillManager.getIntelligence());
         typesMap.put("sila", skillManager.getStrength());
+        typesMap.put("inteligencja", skillManager.getIntelligence());
         typesMap.put("charyzma", skillManager.getCharisma());
         typesMap.put("szybkosc", skillManager.getSpeed());
         typesMap.put("nic", skillManager.getSpeed());
@@ -51,12 +51,14 @@ public class EventExecutor {
             Integer randomInt = random.nextInt(100);
             if (randomInt<=percent) {
                 if (percent!=100) {System.out.println("zaryzykowałeś i udało się :)");}
-                if (toChange.getCurrent()-toChangeVal<0) { toChange.setCurrent(0); }
+                if (list.get(0).equals("dzielnice")) {System.out.println("gratuluje, twoje szczury zdobyły kolejną dzielnicę");}
+                if (toChange.getCurrent()+toChangeVal<0) { toChange.setCurrent(0); }
                 else { toChange.setCurrent(toChange.getCurrent()+toChangeVal); }
             }
             else { System.out.println("zaryzykowałeś, ale nie udało się"); }
         }
-        else { throw new RuntimeException("e"); }
+        else { 
+            throw new RuntimeException("e"); }
     }
 
     public void executeEvent(List<String> list) {

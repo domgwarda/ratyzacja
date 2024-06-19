@@ -25,9 +25,7 @@ public class EventManager {
     }
 
     public void newEvent(Integer n) {
-        Event.EventDistrict eventDistrict = new Event.EventDistrict();
         if (n==0) { return; } 
-        if (n%7==0 && n/7==districts.getCurrent()+1) { eventDistrict.newEvent(eventExecutor); }
         else { 
             Event eventType = eventMap.get(districts.getCurrent());
             eventType.newEvent(eventExecutor);

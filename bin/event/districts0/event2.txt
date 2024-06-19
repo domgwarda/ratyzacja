@@ -1,9 +1,9 @@
-zarazeni 15000 100 inteligencja 4
-zarazeni 14000 100 charyzma 2
+zarazeni 15000 100 inteligencja 3
+zarazeni 14000 25 charyzma 2
 0
 
 bleh
 Co chcesz zrobić?
-1) ... (wymagane 5 punktów inteligencji)
-2) ... (wymagane 3 charyzmy i szczęście)
+1) ... (wymagane 3 punktów inteligencji)
+2) ... (wymagane 2 charyzmy i szczęście)
 3) Nic nie rób

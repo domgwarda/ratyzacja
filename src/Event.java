@@ -9,7 +9,7 @@ public abstract class Event {
         @Override
         public void newEvent(EventExecutor eventExecutor) {
             Random random = new Random();
-            Integer randomInt = random.nextInt(2);
+            Integer randomInt = random.nextInt(9);
             List<String> list = ReadFile.readEvent("../event/districts0/event"+randomInt+".txt");
             eventExecutor.executeEvent(list);
         }
@@ -21,7 +21,7 @@ public abstract class Event {
         @Override
         public void newEvent(EventExecutor eventExecutor) {
             Random random = new Random();
-            Integer randomInt = random.nextInt(1);
+            Integer randomInt = random.nextInt(10);
             List<String> list = ReadFile.readEvent("../event/districts1/event"+randomInt+".txt");
             eventExecutor.executeEvent(list);
         }
@@ -59,18 +59,6 @@ public abstract class Event {
             Integer randomInt = random.nextInt(1);
             List<String> list = ReadFile.readEvent("../event/districts4/event"+randomInt+".txt");
             eventExecutor.executeEvent(list);
-        }
-    }
-
-    public static class EventDistrict extends Event {
-        public EventDistrict() {}
-
-        @Override
-        public void newEvent(EventExecutor eventExecutor) {
-            Random random = new Random();
-            Integer randomInt = random.nextInt(1);
-            ReadFile.readFile("../event/districts/event"+randomInt+".txt");
-            eventExecutor.increaseDistrict();
         }
     }
 }
