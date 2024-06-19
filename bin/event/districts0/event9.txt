@@ -1,0 +1,9 @@
+dzielnice 1 100 charyzma 6
+dzielnice 1 100 szybkosc 6
+0
+
+Mozesz zdobyc 1 dzielnice
+Co chcesz zrobić?
+1) chce (wymagane 6 punktów charyzmy)
+2) chce (wymagane 6 punktów szybkości)
+3) nie chce

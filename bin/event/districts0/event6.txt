@@ -1,0 +1,9 @@
+orzechy 1 100 charyzma 4
+smieci 1 100 inteligencja 3
+0
+
+...
+Co chcesz zrobić?
+1) ... (wymagane 4 punkty charyzmy)
+2) ... (wymagane 3 punkty inteligencji)
+3) Nic nie rób (...)

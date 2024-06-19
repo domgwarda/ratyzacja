@@ -1,0 +1,9 @@
+dzielnice 1 100 inteligencja 6
+dzielnice 1 100 sila 6
+0
+
+Mozesz zdobyc 1 dzielnice
+Co chcesz zrobić?
+1) chce (wymagane 6 punktów inteligencji)
+2) chce (wymagane 6 punktów siły)
+3) nie chce

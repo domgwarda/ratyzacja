@@ -1,11 +1,9 @@
-martwi -20000 100 szybkosc 4
-martwi -40000 33 inteligencja 2
+smieci 1 100 sila 5
+smieci 1 20 szybkosc 2
 0
 
-Szympansy we Wrocławskim zoo dostały ataku paniki
-i wydostają się na zewnątrz. Zaczynają demolować pobliskie
-budynki oraz atakować ludzi.
+...
 Co chcesz zrobić?
-1) Wbij szympansom strzykawkę z adrenaliną (wymagane 4 punkty szybkości)
-2) Daj szympansom broń palną, może uda im się nią posłużyć (wymagane 2 punkty inteligencji i szczęście)
-3) Nic nie rób
+1) ... (wymagane 5 punktów siły)
+2) ... (wymagane 2 punkty szybkości i szczęście)
+3) ...

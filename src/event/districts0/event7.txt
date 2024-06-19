@@ -1,0 +1,9 @@
+dzielnice 1 100 charyzma 5
+dzielnice 1 100 sila 3
+0
+
+...
+Co chcesz zrobić?
+1) ... (wymagane 5 punktów charyzmy)
+2) ... (wymagane 3 punkty siły)
+3) Nic nie rób (...)

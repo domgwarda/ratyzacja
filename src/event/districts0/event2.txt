@@ -1,12 +1,9 @@
-populacja 40000 100 szybkosc 4
-populacja 45000 100 charyzma 3
+zarazeni 15000 100 inteligencja 4
+zarazeni 14000 100 charyzma 2
 0
 
-Studenci wydziału dziennikarstwa i komunikacji społecznej
-skontruowali bombe i podłożyli ją pod budynek instytutu
-informatyki. W piwnicy ii mieszka wiele szczurów.
-zawalił się. 
+bleh
 Co chcesz zrobić?
-1) Porwij ich dziekana (wymagane 4 punkty szybkosci)
-2) Spróbuj porozmawiać z ich guru (wymagane 3 punkty charyzmy, szczęście i megafon)
-3) Nic nie rób (wiele szczurów zginie)
+1) ... (wymagane 5 punktów inteligencji)
+2) ... (wymagane 3 charyzmy i szczęście)
+3) Nic nie rób
