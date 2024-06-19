@@ -16,10 +16,10 @@ public class Main {
         EventManager eventManager = new EventManager(districts, eventExecutor);
 
         //START
-        ReadFile.readFile("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/loreFiles/lore.txt");
+        ReadFile.readFile("../loreFiles/lore.txt");
         System.out.println("\n(dalej)");
         scanner.nextLine();
-        ReadFile.readFile("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/loreFiles/introduction.txt");
+        ReadFile.readFile("../loreFiles/introduction.txt");
         System.out.println("\n(dalej)");
         scanner.nextLine();
         actionManager.start();

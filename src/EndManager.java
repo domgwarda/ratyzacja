@@ -42,35 +42,35 @@ public class EndManager {
     public Boolean end(Integer n) {
         Random random = new Random();
         if (counter==5) { 
-            ReadFile.readFile("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/loreFiles/tooLong2.txt"); 
+            ReadFile.readFile("../loreFiles/tooLong2.txt"); 
             counter -= 1;
             return false;
         }
         else if (counter==0) { 
-            ReadFile.readFile("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/loreFiles/loseTooLong.txt"); 
+            ReadFile.readFile("../loreFiles/loseTooLong.txt"); 
             return true;
         }
         else if (winDistricts()) {
-            ReadFile.readFile("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/loreFiles/winDistricts.txt"); 
+            ReadFile.readFile("../loreFiles/winDistricts.txt"); 
             return true;
         }
         else if (winInfected()) {
-            ReadFile.readFile("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/loreFiles/winInfected.txt"); 
+            ReadFile.readFile("../loreFiles/winInfected.txt"); 
             return true;
         }
 
         else if (winSkill()) {
-            ReadFile.readFile("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/loreFiles/winSkill.txt"); 
+            ReadFile.readFile("../loreFiles/winSkill.txt"); 
             return true;
         }
 
         else if (losePopulation()) {
-            ReadFile.readFile("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/loreFiles/losePopulation.txt"); 
+            ReadFile.readFile("../loreFiles/losePopulation.txt"); 
             return true;
         }
 
         else if (loseTrashes()) {
-            ReadFile.readFile("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/loreFiles/loseTrashes.txt"); 
+            ReadFile.readFile("../loreFiles/loseTrashes.txt"); 
             return true;
         }
 
@@ -78,7 +78,7 @@ public class EndManager {
             if (n > 1 && counter == -1) {
                 if (random.nextInt(3) == 1) { 
                     counter = 10;
-                    ReadFile.readFile("/mnt/c/Users/Gwarda/Desktop/studia/po/projekt/ratyzacja/src/loreFiles/tooLong1.txt"); 
+                    ReadFile.readFile("../loreFiles/tooLong1.txt"); 
                     return false;
                 }
                 return false;
